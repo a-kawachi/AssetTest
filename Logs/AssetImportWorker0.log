@@ -1,0 +1,103 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/kawachi/Documents/AssetTest
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65163
+Successfully changed project path to: /Users/kawachi/Documents/AssetTest
+/Users/kawachi/Documents/AssetTest
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 24.92 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.0f1 (c7b5465681fb)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/kawachi/Documents/AssetTest/Assets
+GfxDevice: creating device client; threaded=0
+2021-07-06 16:59:57.705 Unity[57797:5033616] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics (low power)
+2021-07-06 16:59:57.706 Unity[57797:5033616] Metal devices available: 1
+2021-07-06 16:59:57.706 Unity[57797:5033616] 0: Intel(R) Iris(TM) Plus Graphics (low power)
+2021-07-06 16:59:57.706 Unity[57797:5033616] Using device Intel(R) Iris(TM) Plus Graphics (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56797
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000591 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 23.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.904 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000369 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.030 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.7 MB.
+System memory in use after: 109.7 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1567.
+Total: 2.455353 ms (FindLiveObjects: 0.187511 ms CreateObjectMapping: 0.056426 ms MarkObjects: 2.120416 ms  DeleteObjects: 0.089184 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/GameScene
+  artifactKey: Guid(f8cc03b2906ad4d49b04808ae591bcf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameScene using Guid(f8cc03b2906ad4d49b04808ae591bcf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '994e94cb26e0651bb6bee43c6026c3b3') in 0.006147 seconds
+  Import took 0.008853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.395044 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(b5dc8c23c7f6a4d7ebaf8bcf141bdf8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(b5dc8c23c7f6a4d7ebaf8bcf141bdf8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6d1a9250b0d794d476b08bb0f52756b') in 0.001553 seconds
+  Import took 0.004178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.210643 seconds.
+  path: Assets/GameScene/Animations
+  artifactKey: Guid(4810a14ea101abe49b277064660b52ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameScene/Animations using Guid(4810a14ea101abe49b277064660b52ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41511440ffeb4b266a0d80ba204c521f') in 0.001402 seconds
+  Import took 0.004559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.796400 seconds.
+  path: Assets/GameScene/GameScene.unity
+  artifactKey: Guid(0b18782437fc2334baebc4267ae1aa78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameScene/GameScene.unity using Guid(0b18782437fc2334baebc4267ae1aa78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49dd64e6dc51fbba1c5c6815fdd89b9d') in 0.012016 seconds
+  Import took 0.014146 seconds .
+
